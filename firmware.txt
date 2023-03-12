@@ -1,6 +1,6 @@
 (1)
 admin
-12345
+********
 configure
 inter vlan 1
 ip addr 10.0.0.1 255.0.0.0
@@ -10,7 +10,7 @@ tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
 
 (2)
 admin
-12345
+********
 configure
 inter vlan 1
 ip addr 10.0.0.2 255.0.0.0
@@ -20,7 +20,7 @@ tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
 
 (3)
 admin
-12345
+********
 configure
 inter vlan 1
 ip addr 10.0.0.3 255.0.0.0
@@ -30,7 +30,7 @@ tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
 
 (4)
 admin
-12345
+********
 configure
 inter vlan 1
 ip addr 10.0.0.4 255.0.0.0
@@ -40,7 +40,7 @@ tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
 
 (5)
 admin
-12345
+********
 configure
 inter vlan 1
 ip addr 10.0.0.5 255.0.0.0
@@ -49,7 +49,7 @@ tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
 
 (6)
 admin
-12345
+********
 configure
 inter vlan 1
 ip addr 10.0.0.6 255.0.0.0
