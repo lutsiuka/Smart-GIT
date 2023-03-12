@@ -1,0 +1,123 @@
+(1)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.1 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+
+(2)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.2 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+
+(3)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.3 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+
+(4)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.4 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+
+(5)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.5 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+(6)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.6 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+(7)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.7 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+(8)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.8 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+(9)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.9 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+(10)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.10 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+(11)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.11 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+(12)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.12 255.0.0.0
+exit
+tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+
+upgrade both-os
+Y
+reboot
+Y
+
+admin
+12345
+show version
+Y
+
+
