@@ -1,6 +1,6 @@
 (1)
 admin
-12345
+********
 configure
 inter vlan 1
 ip addr 10.0.0.1 255.0.0.0
@@ -14,7 +14,7 @@ Y
 
 (2)
 admin
-12345
+********
 configure
 inter vlan 1
 ip addr 10.0.0.2 255.0.0.0
@@ -28,7 +28,7 @@ Y
 
 (3)
 admin
-12345
+********
 configure
 inter vlan 1
 ip addr 10.0.0.3 255.0.0.0
