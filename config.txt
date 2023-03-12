@@ -1,0 +1,167 @@
+(1)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.1 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00003_1062_1.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(2)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.2 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00003_1062_2.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(3)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.3 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00003_1063_1.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(4)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.4 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00003_1063_2.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(5)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.5 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00003_1064_1.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(6)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.6 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00003_1064_2.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(7)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.7 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00009_1054_1.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(8)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.8 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00009_1054_2.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(9)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.9 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00009_1056_1.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(10)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.10 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00014_1022_5.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(11)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.11 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00014_1022_6.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
+
+(12)
+admin
+12345
+configure
+inter vlan 1
+ip addr 10.0.0.12 255.0.0.0
+exit
+tftp get 10.0.0.111 MDU_LUC00007_3062_2.cfg localfile start.cfg
+upgrade config file start.cfg
+Y
+exit
+reboot
+Y
