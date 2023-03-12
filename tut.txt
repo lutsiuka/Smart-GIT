@@ -1,0 +1,39 @@
+﻿############################################################################################
+
+1.  Username: admin
+2.  Password: ********
+3.  Fengine# configure
+4.  Fengine(config)# inter vlan 1
+5.  Fengine(config-vlanif-1)# ip addr 10.0.0.1 255.0.0.0
+6.  Fengine(config-vlanif-1)# exit
+7.  Fengine(config)# tftp get 10.0.0.111 S4800-26T-X_OS_M61.bix
+	#Не вимикати від електрохарчування!!!
+8.  Fengine(config)# upgrade both-os
+9.  Y
+	#Не вимикати від електрохарчування!!!
+10. reboot
+11. Y
+
+############################################################################################
+
+1.  Username: admin
+2.  Password: ********
+3.  Fengine# configure
+4.  Fengine(config)# inter vlan 1
+5.  Fengine(config-vlanif-1)# ip addr 10.0.0.1 255.0.0.0
+6.  Fengine(config-vlanif-1)# exit
+7.  Fengine(config)# tftp get 10.0.0.111 MDU_LUC00008_1044_1.cfg localfile start.cfg
+8.  Fengine(config)# upgrade config file start.cfg
+9.  Y
+10. exit
+11. reboot
+12. Y
+
+
+admin
+12345
+erase startup-config
+Y
+reboot
+Y
+
